@@ -1,0 +1,119 @@
+@media only screen and (max-width: 768px) {
+  #navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+    width: auto;
+    /* padding: auto; */
+    margin: auto;
+  }
+
+  .blank {
+    display: none;
+  }
+
+  .boxes {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-customer .customer {
+    grid-template-columns: 1fr;
+  }
+  
+  #main-footer .footer-container {
+    flex-direction: column;
+  }
+
+  
+  /* About Page */
+  .about {
+    display: block;
+    width: 100%;
+
+  }  
+
+}
+
+@media only screen and (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 0;
+  }
+  
+  .logo {
+    margin-top: -1rem;
+    margin-bottom: .5rem;
+  }
+
+  .nav-link {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  .nav-link li a{
+    padding: 10px;
+    margin: 5px 0 0 4px;
+  }
+
+  .customer {
+    padding: 1.5rem;
+  }
+
+  #main-footer{
+    padding: .1rem;
+  }
+
+  #main-footer .footer-container{
+    padding: 0em;
+    margin: 0em;
+  }
+
+  /* Services */
+  .services {
+    padding: 2rem;
+  }
+
+  .head {
+    margin-top: 2rem;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  /* Contact */
+  .main-contact {
+    padding: 1rem 2rem;
+  }
+
+  .form input,
+  .form textarea {
+   margin-bottom: 2rem;
+   width: 90%;
+   padding: .5rem;
+  }
+
+  .form button {
+    margin-bottom: 2rem;
+  }
+
+  .address {
+    grid-template-columns: 1fr;
+  }
+
+  .address div {
+    margin-bottom: 2rem;
+  }
+
+
+
+
+
+}
