@@ -3,8 +3,8 @@
     position: sticky;
     top: 0;
     left: 0;
-    display: grid;
-    grid-template-columns: 1fr;
+    /* display: grid;
+    grid-template-columns: 1fr; */
     height: auto;
     width: auto;
     /* padding: auto; */
@@ -35,6 +35,30 @@
     width: 100%;
 
   }  
+  
+  /* Contact */
+  .main-contact {
+    padding: 1.5rem 2rem;
+  }
+
+  .form input,
+  .form textarea {
+   margin-bottom: 2rem;
+   width: 90%;
+   padding: .5rem;
+  }
+
+  .form button {
+    margin-bottom: 2.5rem;
+  }
+
+  .address {
+    grid-template-columns: 1fr;
+  }
+
+  .address div {
+    margin-bottom: 2.5rem;
+  }
 
 }
 
